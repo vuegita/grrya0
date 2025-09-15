@@ -1,0 +1,1086 @@
+
+
+[
+
+    {
+        "root_key": "root_basic",
+        "root_name": "基础配置",
+        "showInProd": true,
+        "showInMode": "all",
+        "childMenuList": [
+            {
+                "key": "root_basic_overview",
+                "name": "平台概况",
+                "permissions": "list"
+            },
+            {
+                "key": "root_basic_platform",
+                "name": "平台设置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_basic_system_config",
+                "name": "系统设置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_basic_googleverify",
+                "name": "谷歌验证设置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_basic_code_amount",
+                "name": "打码量设置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_mobile_app_config",
+                "name": "APP设置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_vip_config",
+                "name": "VIP配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_gift_config",
+                "name": "礼物配置",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+    {
+        "root_key": "root_web_team_buying",
+        "root_name": "拼团管理",
+        "showInProd": false,
+        "showInMode": "all",
+        "childMenuList": [
+            {
+                "key": "root_web_team_buying_level_config",
+                "name": "拼团配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_web_team_buying_group",
+                "name": "拼团分组",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_web_team_buying_record",
+                "name": "拼团记录",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_web_team_buying_order",
+                "name": "订单列表",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_web_activity",
+        "root_name": "活动管理",
+        "showInProd": false,
+        "childMenuList": [
+            {
+                "key": "root_web_activity_config",
+                "name": "活动列表",
+                "permissions": "delete,edit,list"
+            },
+            {
+                "key": "root_web_activity_order",
+                "name": "订单列表",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_passport",
+        "root_name": "用户管理",
+        "showInProd": true,
+        "showInMode": "all",
+        "childMenuList": [
+            {
+                "key": "root_passport_member",
+                "name": "会员列表",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_attr",
+                "name": "会员详情列表",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_money_balance",
+                "name": "会员余额管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_money_order",
+                "name": "余额变动明细",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_user_invite_stats_day",
+                "name": "会员邀请统计",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_user_bank",
+                "name": "银行卡管理",
+                "permissions": "delete,edit,list"
+            },
+            {
+                "key": "root_passport_user_system_follow",
+                "name": "关注列表",
+                "permissions": "delete,edit,list"
+            },
+            {
+                "key": "root_passport_user_risk",
+                "name": "风控列表",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_vip",
+                "name": "VIP会员",
+                "hiddenNode": false,
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_tree",
+                "name": "会员关系树",
+                "hiddenNode": false,
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_agent_app",
+                "name": "代理应用管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_agent_domain",
+                "name": "代理域名配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_agent_config",
+                "name": "代理配置管理",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+    {
+        "root_key": "root_passport_share_holder",
+        "root_name": "股东管理",
+        "showInProd": false,
+        "showInMode": "all",
+        "childMenuList": [
+            {
+                "key": "root_passport_share_holder_config",
+                "name": "配置管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_share_holder_member",
+                "name": "股东列表",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_order",
+        "root_name": "订单管理",
+        "showInProd": true,
+        "showInMode": "all",
+        "childMenuList": [
+            {
+                "key": "root_passport_user_recharge_order",
+                "name": "充值管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_recharge_first_order",
+                "name": "首充列表",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_user_withdraw_order_audit",
+                "name": "提现审核",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_withdraw_order_record",
+                "name": "提现记录",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_supply_order",
+                "name": "补单管理",
+                "permissions": "add,list"
+            },
+            {
+                "key": "root_passport_user_refund_order_record",
+                "name": "退款记录",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_return_water_order_record",
+                "name": "返佣订单",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_return_first_recharge_up_record",
+                "name": "返首充订单",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_user_day_present_order",
+                "name": "每日赠送",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_buy_vip_order",
+                "name": "VIP订单",
+                "hiddenNode": false,
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_passport_user_other_order_record",
+                "name": "其它订单",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_agent_wallet_order",
+                "name": "代理钱包订单",
+                "permissions": "list"
+            },
+            {
+                "key": "root_passport_promotion_present_order",
+                "name": "限制赠送订单",
+                "permissions": "list,edit"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game",
+        "root_name": "游戏管理",
+        "showInProd": true,
+        "showInMode": "bc",
+        "childMenuList": [
+            {
+                "key": "root_game_page",
+                "name": "游戏列表",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_task_checkin",
+                "name": "签到列表",
+                "permissions": "list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_lottery",
+        "root_name": "红绿管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_lottery_rg_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_lottery_rg_period_current",
+                "name": "当期管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_lottery_rg_period",
+                "name": "期号管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_lottery_rg_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_turntable",
+        "root_name": "转盘管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_turntable_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_turntable_period_current",
+                "name": "当期管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_turntable_period",
+                "name": "期号管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_turntable_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_rocket",
+        "root_name": "火箭管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_rocket_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_rocket_period_current",
+                "name": "当期管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_rocket_period",
+                "name": "期号管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_rocket_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_btc_kline",
+        "root_name": "BTC管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_btc_kline_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_btc_kline_period_current",
+                "name": "当期管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_btc_kline_period",
+                "name": "期号管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_btc_kline_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_football",
+        "root_name": "足球管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_football_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_football_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_mines",
+        "root_name": "地雷游戏",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_mines_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_mines_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_pg",
+        "root_name": "PG游戏",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_pg_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_rg2",
+        "root_name": "新红绿管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_rg2_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_rg2_period_current",
+                "name": "当期管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_rg2_period",
+                "name": "期号管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_rg2_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_andar_bahar",
+        "root_name": "Andar-Bahar管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_game_andar_bahar_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_andar_bahar_period_current",
+                "name": "当期管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_andar_bahar_period",
+                "name": "期号管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_andar_bahar_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_fruit",
+        "root_name": "水果机管理",
+        "showInProd": true,
+        "hiddenNode": false,
+        "childMenuList": [
+            {
+                "key": "root_game_fruit_config",
+                "name": "开奖配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_fruit_period_current",
+                "name": "当期管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_fruit_period",
+                "name": "期号管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_fruit_order",
+                "name": "投注订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_ad",
+        "root_name": "广告管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_ad_vip_limit",
+                "name": "限制配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_ad_category",
+                "name": "分类管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_ad_materiel",
+                "name": "物料管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_ad_event_order",
+                "name": "事件订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_red_package",
+        "root_name": "红包管理",
+        "showInProd": true,
+        "hiddenNode": false,
+        "showInMode": "bc",
+        "childMenuList": [
+            {
+                "key": "root_game_red_package_config",
+                "name": "开奖配置",
+                "permissions": "edit,list",
+                "hiddenNode": "true"
+            },
+            {
+                "key": "root_game_red_package_period",
+                "name": "红包列表",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_red_package_receive_order",
+                "name": "领取订单",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_red_package_bet_order",
+                "name": "投注订单",
+                "permissions": "edit,list",
+                "hiddenNode": "true"
+            },
+            {
+                "key": "root_game_red_package_staff_limit",
+                "name": "员工红包设置",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_game_financial_management",
+        "root_name": "理财管理",
+        "showInProd": true,
+        "hiddenNode": false,
+        "showInMode": "bc",
+        "childMenuList": [
+            {
+                "key": "root_game_financial_management_product",
+                "name": "理财产品",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_game_financial_management_order",
+                "name": "销售记录",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_coin_crypto",
+        "root_name": "数字货币",
+        "showInProd": true,
+        "hiddenNode": false,
+        "showInMode": "crypto",
+        "childMenuList": [
+            {
+                "key": "root_coin_crypto_address_config",
+                "name": "地址池",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_crypto_config",
+                "name": "公共配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_crypto_settle_config",
+                "name": "结算配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_core_mining_profit_level_config",
+                "name": "挖矿收益",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_crypto_contract",
+                "name": "合约管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_crypto_account",
+                "name": "会员地址",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_crypto_approve_auth",
+                "name": "授权管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_crypto_approve_transfer",
+                "name": "划转订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_coin_withdraw",
+        "root_name": "提币管理",
+        "showInProd": true,
+        "showInMode": "crypto",
+        "hiddenNode": false,
+        "status" : "disable",
+        "childMenuList": [
+            {
+                "key": "root_coin_withdraw_channel",
+                "name": "提币通道",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_withdraw_order",
+                "name": "订单列表",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_system_payout_coin",
+                "name": "系统提币",
+                "permissions": "list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_coin_defi_mining",
+        "root_name": "DeFi挖矿",
+        "showInProd": true,
+        "showInMode": "crypto",
+        "childMenuList": [
+            {
+                "key": "root_coin_defi_mining_product",
+                "name": "产品列表",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_defi_mining_record",
+                "name": "挖矿记录",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_defi_mining_order",
+                "name": "收益订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_coin_mutisign",
+        "root_name": "多签管理",
+        "showInProd": true,
+        "showInMode": "crypto",
+        "childMenuList": [
+            {
+                "key": "root_coin_mutisign_record",
+                "name": "多签记录",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_mutisign_order",
+                "name": "多签订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_coin_binance_activity_mining",
+        "root_name": "币安活动",
+        "showInMode": "crypto",
+        "showInProd": "true",
+        "childMenuList": [
+            {
+                "key": "root_coin_binance_activity_mining_record",
+                "name": "挖矿记录",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_binance_activity_mining_order",
+                "name": "结算订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_coin_cloud_mining",
+        "root_name": "云挖矿",
+        "showInProd": true,
+        "showInMode": "crypto",
+        "childMenuList": [
+            {
+                "key": "root_coin_cloud_mining_profit_level_config",
+                "name": "收益配置",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_cloud_mining_record",
+                "name": "挖矿记录",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_coin_cloud_mining_order",
+                "name": "结算订单",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_coin_qrcode_auth",
+        "root_name": "扫码管理",
+        "showInProd": true,
+        "showInMode": "crypto",
+        "childMenuList": [
+            {
+                "key": "root_coin_qrcode_auth_config",
+                "name": "扫码配置",
+                "permissions": "list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_web_settle",
+        "root_name": "结算管理",
+        "showInProd": true,
+        "showInMode": "crypto",
+        "childMenuList": [
+            {
+                "key": "root_web_settle_order",
+                "name": "结算订单",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_web_settle_withdraw_report",
+                "name": "结算订单记录",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_web_settle_record",
+                "name": "结算记录",
+                "permissions": "edit,list"
+            }
+
+        ]
+    },
+
+    {
+        "root_key": "root_report",
+        "root_name": "报表管理",
+        "showInProd": true,
+        "showInMode": "all",
+        "childMenuList": [
+            {
+                "key": "root_report_day_return_water",
+                "name": "会员返佣统计",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_member",
+                "name": "会员每日统计",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_staff",
+                "name": "员工每日统计",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_agent",
+                "name": "代理每日统计",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_business",
+                "name": "业务每日统计",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_platform",
+                "name": "平台每日统计",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_passport_user_status",
+                "name": "会员增长统计",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_member_profit_loss",
+                "name": "会员今日盈亏",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_business_v2",
+                "name": "业务每日合计2",
+                "permissions": "list"
+            },
+            {
+                "key": "root_report_day_user_stats_detail_v2",
+                "name": "会员每日详细统计",
+                "permissions": "list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_data_analysis",
+        "root_name": "数据分析",
+        "showInProd": true,
+        "hiddenNode": false,
+        "childMenuList": [
+            {
+                "key": "root_data_analysis_user_active_stats_day",
+                "name": "在线时长",
+                "permissions": "list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_web_kefu",
+        "root_name": "客服管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_web_kefu_group",
+                "name": "分组管理",
+                "permissions": "add,delete,edit,list"
+            },
+            {
+                "key": "root_web_kefu_member",
+                "name": "客服列表",
+                "permissions": "add,delete,edit,list"
+            },
+            {
+                "key": "root_web_kefu_staff",
+                "name": "员工客服",
+                "permissions": "add,edit,list"
+            },
+            {
+                "key": "root_web_kefu_feedback",
+                "name": "投诉与建议",
+                "permissions": "add,edit,list"
+            },
+            {
+                "key": "root_web_station_letter",
+                "name": "站内信",
+                "permissions": "add,edit,list"
+            }
+        ]
+    },
+    {
+        "root_key": "root_pay_channel",
+        "root_name": "通道管理",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_pay_channel_config",
+                "name": "通道列表",
+                "permissions": "delete,edit,list"
+            },
+            {
+                "key": "root_pay_system_payout_fiat",
+                "name": "系统出款",
+                "permissions": "list"
+            },
+            {
+                "key": "root_pay_system_payout_coin",
+                "name": "系统提币",
+                "permissions": "list"
+            }
+        ]
+    },
+    {
+        "root_key": "root_web",
+        "root_name": "网站管理",
+        "showInProd": true,
+        "showInMode": "all",
+        "childMenuList": [
+
+            {
+                "key": "root_web_banner_list",
+                "name": "轮播管理",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_summary_edit_list",
+                "name": "汇总后台内容编辑",
+                "permissions": "list"
+            },
+
+            {
+                "key": "root_web_banner_content",
+                "name": "轮播弹出内容",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_about_us",
+                "name": "关于我们",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_private_policy",
+                "name": "隐私政策",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_activity_content",
+                "name": "活动内容",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_rg_bet_rule",
+                "name": "红绿投注规则",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_ab_bet_rule",
+                "name": "AB投注规则",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_fruit_bet_rule",
+                "name": "水果机投注规则",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_rebate_rule",
+                "name": "返佣规则",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_tips_agent",
+                "name": "代理公告",
+                "permissions": "add,edit,list"
+            },
+            {
+                "key": "root_web_tgsms_agent",
+                "name": "TG配置",
+                "permissions": "add,edit,list"
+            },
+            {
+                "key": "root_web_phone_area_code",
+                "name": "登录国际电话区号",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_register_phone_area_code",
+                "name": "注册国际电话区号",
+                "permissions": "list"
+            },
+            {
+                "key": "root_web_promotion_channel",
+                "name": "推广信息",
+                "permissions": "edit,list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_web_mock_data",
+        "root_name": "模拟数据",
+        "showInProd": true,
+        "childMenuList": [
+            {
+                "key": "root_web_mock_data_invite_friend_present",
+                "name": "模拟邀请好友",
+                "permissions": "list"
+            }
+        ]
+    },
+
+    {
+        "root_key": "root_sys",
+        "root_name": "系统管理",
+        "showInProd": true,
+        "showInMode": "all",
+        "childMenuList": [
+            {
+                "key": "root_sys_admin",
+                "name": "管理员管理",
+                "permissions": "add,delete,edit,list"
+            },
+            {
+                "key": "root_sys_menu",
+                "name": "菜单管理",
+                "permissions": "edit,list"
+            },
+            {
+                "key": "root_sys_role",
+                "name": "角色管理",
+                "permissions": "add,delete,edit,list"
+            },
+            {
+                "key": "root_sys_event_log",
+                "name": "操作日志",
+                "permissions": "list"
+            },
+            {
+                "key": "root_sys_event_member_log",
+                "name": "会员日志",
+                "permissions": "list"
+            },
+            {
+                "key": "root_sys_login_limit",
+                "name": "后台登陆限制",
+                "permissions": "list"
+            }
+        ]
+    }
+]
+
+

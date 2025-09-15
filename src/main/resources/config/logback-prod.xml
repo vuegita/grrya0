@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+scan：当此属性设置为true时，配置文件如果发生改变，将会被重新加载，默认值为true。
+scanPeriod：设置监测配置文件是否有修改的时间间隔，如果没有给出时间单位，默认单位是毫秒当scan为true时，此属性生效。默认的时间间隔为1分钟。
+debug：当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认值为false。
+-->
+
+<configuration scan="false">
+    <!-- 定义日志的根目录 -->
+    <property name="LOG_HOME" value="/var/log/mywg" />
+    <!-- 定义日志文件名称 -->
+    <property name="appName" value="${app.name}"/>
+    
+    <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss} - [%level]-[%logger] - %msg%n"/>
+    
+    <!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件 -->  
+    <appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    	<file>${LOG_HOME}/${appName}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/${appName}.log-%d{yyyy-MM-dd}-%i</fileNamePattern>
+            <MaxHistory>10</MaxHistory>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+	    	<pattern>${pattern}</pattern>
+	  	</encoder>
+    </appender>
+
+	<logger name="springfox" level="error" additivity="false"/>
+	<logger name="reactor" level="error" additivity="false"/>
+   	<logger name="org" level="error" additivity="false"/>
+   	<logger name="ch" level="error" additivity="false"/>
+   	<logger name="us.codecraft.webmagic" level="error" additivity="false"/>
+   	<logger name="io.netty" level="error" additivity="false"/>
+   	<logger name="com.corundumstudio" level="error" additivity="false"/>
+   	<logger name="io.undertow" level="error" additivity="false"/>
+   	<logger name="org.apache" level="error" additivity="false"/>
+    <logger name="com.alibaba" level="warn" additivity="false"/>
+    <logger name="com.chenlb" level="error" additivity="false"/>
+    <logger name="com.atomikos" level="error" additivity="false"/>
+
+    <root level="INFO">
+        <appender-ref ref="fileAppender"/>
+    </root>
+</configuration> 

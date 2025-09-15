@@ -1,0 +1,97 @@
+#!/bin/bash
+
+
+#############################################################
+##############  set root path################################
+#############################################################
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+ROOT="$( cd -P "$( dirname "$SOURCE" )"; cd ..; pwd )"
+
+#############################################################
+#####################  function     #########################
+#############################################################
+target=$1
+mem=$2
+env=$3
+shift 3
+
+if [ "$mem" = "" ]; then
+  mem=300
+fi
+
+### init java 
+JAVA=$JAVA_HOME/bin/java
+JAVA_HEAP_MAX=-Xmx${mem}
+
+### init java classpath
+CLASSPATH=${ROOT}/lib:$JAVA_HOME/lib/tools.jar
+for f in $ROOT/lib/*; do
+  CLASSPATH=${CLASSPATH}:$f;
+done
+
+#############################################################
+#####################  function     #########################
+#############################################################
+function showHelp()
+{
+  echo "Usage $0 <web|bg>"
+  exit 1
+}
+
+function checkJavaHome()
+{
+  if [ "$JAVA_HOME" = "" ]; then
+    echo "====== [ERROR] JAVA_HOME is not set !!! "
+    exit 1
+  fi
+}
+
+
+function startApp()
+{
+  if [ "$target" = "web" ]; then
+    CLASS=com.inso.bootstrap.web.WebBootstrap
+
+  elif [ "$target" = "single" ]; then
+    CLASS=com.inso.bootstrap.single.SingleBootstrap
+    
+  elif [ "$target" = "socket" ]; then
+    CLASS=com.inso.bootstrap.socket.SocketBootstrap
+    
+  elif [ "$target" = "admin" ]; then
+    CLASS=com.inso.bootstrap.admin.AdminBootstrap
+
+  elif [ "$target" = "bg" ]; then
+      CLASS=com.inso.bootstrap.bg.BgBootstrap
+        
+  else
+    echo "===== [ERROR] please enter java class"
+    exit 1
+  fi
+
+  myTimezone='Asia/Kolkata'
+  if [ -f "/etc/mywg/timezone.ini" ]; then
+    myTimezone=$(cat /etc/mywg/timezone.ini)
+  fi
+
+  if [ "$myTimezone" = '' ]; then
+    myTimezone='Asia/Kolkata'
+  fi
+  echo "Current timezone = $myTimezone"
+  ### -Duser.timezone="Asia/Shanghai"
+  ### -Duser.timezone="Asia/Kolkata"
+  exec "$JAVA" -Xms${mem}M -Xmx${mem}M -Denv="$env" -Duser.timezone="$myTimezone" -Dfile.encoding=UTF8   -server -classpath "$CLASSPATH" $CLASS "$@"
+}
+
+#############################################################
+#######################  check  #############################
+#############################################################
+checkJavaHome
+
+
+startApp

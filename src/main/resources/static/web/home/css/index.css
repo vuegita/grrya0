@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+
+}
+.header {
+    width: 100%;
+    height: 41.6145vw;
+    background-image: url("../image/index_banner.png");
+    background-size: 100% 100%;
+    padding-top: 20px;
+}
+.fff{
+    color:#fff;
+    display: block;
+    letter-spacing:0.192vw;
+    font-size: 1.354vw;
+    text-align: center;
+}
+.logo{
+    margin:0vw 0 0 18.75vw;
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 3.229vw;
+    height: 3.229vw;
+    margin-right: 0.4557291666vw;
+}
+.header-main{
+     width: 32vw;
+
+     margin: 5.36458333333vw 0 0 18.125vw;
+}
+.dian{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    left: 29.9vw;
+}
+.dian1{
+    width: 1vw;
+    height:1vw;
+    top: 1.5vw;
+    left: -2.5vw;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+
+}
+.banner-text{
+    width: 30vw;
+    height: 4.53125vw;
+    margin: 0 auto;
+}
+.line{
+  width: 28.75vw;
+  height:2px;
+  margin: 1.3vw auto;
+  background:rgba(255,255,255,1);
+  opacity:0.5;
+}
+.download{
+    display: flex;
+    margin-top: 4.47916vw;
+}
+.phone{
+   flex-direction: column;
+
+}
+.phone img{
+    width: 14.0104166667vw;
+    height: 4.53125vw;
+    margin-bottom: 1.1979vw;
+}
+.code{
+    width:7.291vw;
+    height: 7.291vw;
+    border: 1px solid #fff;
+    position: relative;
+    top: 1.5vw;
+    left: 3vw;
+    overflow: hidden;
+}
+.part1 {
+  width: 100%;
+  height: 40.625vw;
+  background: #F9F9F9;
+  padding-top: 4.7916666667vw;
+}
+
+.cn {
+  margin-bottom: 0.48125vw;
+  text-align: center;
+  font-size: 1.4583333333vw;
+  color: #333333;
+  font-weight: bold;
+}
+
+.en {
+  text-align: center;
+  font-size: 0.8333333333vw;
+  color: #959595;
+  font-weight: 400;
+}
+
+.introduce {
+  margin: 4.5833333333vw 26.9791666667vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduce img {
+  width: 7.2916666667vw;
+  height: 7.2916666667vw;
+}
+
+.introduce-p {
+  margin: 0 26.0416666667vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-p {
+
+  width: 9.3666666667vw;
+  height: 9.3666666667vw;
+  text-align: center;
+}
+
+.p1 {
+  font-size: 1.7625vw;
+}
+
+.p2 {
+  color: #959595;
+  font-size: 1.25vw;
+}
+
+.p3 {
+  color: #959595;
+  font-size: 1.7625vw;
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+.p4 {
+
+  color: #fff;
+  font-size: 2.2916666667vw;
+  font-weight: bold;
+  line-height: 3.2291vw;
+}
+.p5{
+   font-size: 4.1666666667vw;
+   color:#fff;
+
+}
+.p6{
+   font-size:2.604vw ;
+   color:#fff;
+
+}
+.part2 {
+  background: #ffffff;
+  padding-top: 4.7916666667vw;
+  width: 100%;
+  height: 77.0833333333vw;
+}
+
+.lottery {
+  margin: 4.0104166667vw 19.2708333333vw 5.3125vw 19.2708333333vw;
+  height: 54.0625vw;
+  background-image: url('../image/index_introduce02_pic.png');
+  background-size: 100% 100%;
+}
+
+.part3 {
+  background: #F9F9F9;
+  height: 69.1458333333vw;
+  padding-top: 4.7916666667vw;
+  width: 100%;
+
+}
+
+.app {
+  height: 41.8229166667vw;
+  margin: 4.0625vw 12.5520833333vw;
+  background-image: url('../image/index_introduce03_pic.png');
+  background-size: 100% 100%;
+}
+
+.part4 {
+  padding-top: 4.7916666667vw;
+  width: 100%;
+  height: 40.3125vw;
+  background: #ffffff;
+}
+
+.part4-1,
+.part4-2 {
+  margin: 0 auto;
+  display: flex;
+  width: 52.2916666667vw;
+}
+
+.part4-1 {
+
+  margin-bottom: 0.46875vw;
+}
+
+.part4-1 div,
+.part4-2 div {
+  position: relative;
+  width: 17.0833333333vw;
+  margin-right: 0.52vw;
+  height: 17.0833333333vw;
+  display: flex;
+  align-items: center;
+  /*垂直居中*/
+  justify-content: center;
+  /*水平居中*/
+  background: linear-gradient(-37deg, rgba(255, 167, 28, 1) 0%, rgba(255, 209, 128, 1) 100%);
+}
+
+.whiteLine {
+  width: 4.64vw;
+  height: 0.204vw;
+  background: #fff;
+  position: absolute;
+  bottom: 4vw;
+ 
+}
+
+.part5 {
+  height: 19.8958333333vw;
+  background: #2E2E32;
+  padding: 10.3125vw 0 0 20.3125vw;
+}
+.part5 img{
+  width:2.2916666667vw;
+  height: 2.2916666667vw;
+}
+.part6{
+  width: 100%;
+  background: #2E2E32;
+  height: 5.2083333333vw;
+  color: #BCBCBD;
+  font-size: 0.72vw;
+  border-top: 1px solid #555555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span{
+  line-height: 0.2vw;
+  position: absolute;
+  top: 1vw;
+  left: 3vw;
+  display: block;
+  width: 15vw;
+}

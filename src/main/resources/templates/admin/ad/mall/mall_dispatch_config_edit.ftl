@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <#include "../../../common/head-meta.ftl"/>
+    <title>${projectName}后台管理系统-用户管理</title>
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>派单配置</h5>
+
+            <p style="color: blue"> 　</p>
+<#--            <p  style="color: green">1. 最低和最高价格都要为5的倍数!</p>-->
+        </div>
+
+        <div class="ibox-content">
+
+            <form id="form" class="form-horizontal" autocomplete="off">
+                <input type="hidden" name="id" id="id" value="<#if entity?exists>${entity.level}</#if>"/>
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2">最小值:</label>
+                    <div class="col-sm-5">
+                        <input class="form-control" name="minCount" id="minCount" autocomplete="off"
+                               required type="text" maxlength="50" onkeyup="this.value=this.value.replace(/[^\d]/g,'');"
+                               style="width:300px;"
+                               value="<#if entity?exists> ${entity.minCount} </#if>" />
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2">最大值:</label>
+                    <div class="col-sm-5">
+                        <input class="form-control" name="maxCount" id="maxCount" autocomplete="off"
+                               required type="text" maxlength="50" onkeyup="this.value=this.value.replace(/[^\d]/g,'');"
+                               style="width:300px;"
+                               value="<#if entity?exists> ${entity.maxCount} </#if>" />
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2"><span class="text-danger">*&nbsp;</span>状态:</label>
+                    <div class="col-sm-5">
+                        <div class="radio i-checks">
+
+                            <label>
+                                <input type="radio"  name="status" id="status" value="enable"
+                                        <#if entity?exists && entity.status == 'enable'> checked </#if>/>
+                                <i></i>启用
+                            </label>
+
+                            <label><input type="radio"  name="status" id="status" value="disable"
+                                        <#if entity?exists && entity.status == 'disable'> checked </#if>/>
+                                <i></i>禁用
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <input class="btn btn-primary" type="button" id="submitBtn" value="保存"/>
+                        <button class="btn btn-white" type="button" onclick="window.close();">取消</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="${STATIC_URL}/plugins/validate/jquery.validate.min.js"></script>
+<script type="text/javascript" src="${STATIC_URL}/plugins/validate/messages_zh.min.js"></script>
+<script type="text/javascript" src="${STATIC_URL}/js/validate.defaults.js?v=${version}"></script>
+<script type="text/javascript" src="${STATIC_URL}/js/jquery.md5.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+
+        $('.usertypeLabel').on("click",function() {
+            var input = $(this).find("input");
+
+            var userType = $(input).data('usertype');
+            if(userType == 'staff')
+            {
+                $("#agentNameDIV").show();
+            }
+            else
+            {
+                $("#agentNameDIV").hide();
+            }
+        });
+
+
+        //确认保存
+        $("#submitBtn").click(function () {
+            var id = $('input[name="id"]').val();
+            var minCount = $('input[name="minCount"]').val();
+            var maxCount = $('input[name="maxCount"]').val();
+
+            var status = $('input[name="status"]:checked').val();
+
+            $.ajax({
+                type: "post",
+                async: false,
+                url: "/alibaba888/Liv2sky3soLa93vEr62/editAdMallDispatchConfigInfo",
+                data: {
+                    id:id,
+                    minCount: minCount,
+                    maxCount: maxCount,
+                    status:status,
+                },
+                dataType: "json",
+                success: function (data) {
+                    if (data != null && data.code == 200) {
+                        $.global.openSuccessMsg("保存成功",function(){
+                            window.close();
+                        });
+                    } else {
+                        $.global.openErrorMsg(data.msg);
+                    }
+                },
+                error: function () {
+                    $.global.openErrorMsg('保存失败，请重试');
+                }
+            })
+        });
+    });
+
+</script>
+</body>
+</html>

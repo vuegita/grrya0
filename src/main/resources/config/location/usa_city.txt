@@ -1,0 +1,259 @@
+New York, New York
+Los Angeles, California
+Chicago, Illinois
+Houston, Texas
+Phoenix, Arizona
+Philadelphia, Pennsylvania
+San Antonio, Texas
+San Diego, California
+Dallas, Texas
+San Jose, California
+Detroit, Michigan
+Jacksonville, Florida
+Indianapolis, Indiana
+San Francisco, California
+Columbus, Ohio
+Austin, Texas
+Memphis, Tennessee
+Fort Worth, Texas
+Baltimore, Maryland
+Charlotte, North Carolina
+El Paso, Texas
+Milwaukee, Wisconsin
+Boston, Massachusetts
+Seattle, Washington
+Washington, D. C.
+Denver, Colorado
+Louisville, Kentucky
+Las Vegas, Nevada
+Nashville, Tennessee
+Oklahoma City, Oklahoma
+Portland, Oregon
+Tucson, Arizona
+Albuquerque, New Mexico
+Atlanta, Georgia
+Long Beach, California
+Fresno, California
+Sacramento, California
+Mesa, Arizona
+Kansas City, Missouri
+Cleveland, Ohio
+Virginia Beach, Virginia
+Omaha, Nebraska
+Miami, Florida
+Oakland, California
+Tulsa, Oklahoma
+Honolulu, Hawai'i
+Minneapolis, Minnesota
+Colorado Springs, Colorado
+Arlington, Texas
+Wichita, Kansas
+Raleigh, North Carolina
+St. Louis, Missouri
+Santa Ana, California
+Anaheim, California
+Tampa, Florida
+Cincinnati, Ohio
+Pittsburgh, Pennsylvania
+Bakersfield, California
+Aurora, Colorado
+Toledo, Ohio
+Riverside, California
+Stockton, California
+Corpus Christi, Texas
+Newark, New Jersey
+Anchorage, Alaska
+Buffalo, New York
+St. Paul, Minnesota
+Lexington, Kentucky
+Plano, Texas
+Fort Wayne, Indiana
+St. Petersburg, Florida
+Glendale, Arizona
+Jersey City, New Jersey
+Lincoln, Nebraska
+Henderson, Nevada
+Chandler, Arizona
+Norfolk, Virginia
+Greensboro, North Carolina
+Scottsdale, Arizona
+Baton Rouge, Louisiana
+Birmingham, Alabama
+Madison, Wisconsin
+New Orleans, Louisiana
+Chesapeake, Virginia
+Orlando, Florida
+Garland, Texas
+Hialeah, Florida
+Laredo, Texas
+Chula Vista, California
+Lubbock, Texas
+Reno, Nevada
+Akron, Ohio
+Durham, North Carolina
+Rochester, New York
+Modesto, California
+Montgomery, Alabama
+Fremont, California
+Shreveport, Louisiana
+Arlington, Virginia
+Glendale, California
+San Bernardino, California
+Boise, Idaho
+Spokane, Washington
+Yonkers, New York
+North Las Vegas, Nevada
+Winston-Salem, North Carolina
+Tacoma, Washington
+Irving, Texas
+Huntington Beach, California
+Irvine, California
+Des Moines, Iowa
+Great Rapids, Michigan
+Richmond, Virginia
+Mobile, Alabama
+Gilbert, Arizona
+Augusta, Georgia
+Columbus, Georgia
+Fort Lauderdale, Florida
+Amarillo, Texas
+Oxnard, California
+Little Rock, Arkansas
+Moreno Valley, California
+Knoxville, Tennessee
+Salt Lake City, Utah
+Newport News, Virginia
+Jackson, Mississippi
+Worcester, Massachusetts
+Providence, Rhode Island
+Ontario, California
+Brownsville, Texas
+Rancho Cucamonga, California
+Aurora, Illinois
+Fontana, California
+Tempe, Arizona
+Rockford, Illinois
+Huntsville, Alabama
+Fayetteville, North Carolina
+Santa Clarita, California
+Overland Park, Kansas
+Garden Grove, California
+Oceanside, California
+Tallahassee, Florida
+Vancouver, Washington
+Dayton, Ohio
+Chattanooga, Tennessee
+Pomona, California
+Santa Rosa, California
+Grand Prairie, Texas
+Salem, Oregon
+Cape Coral, Florida
+Springfield, Massachusetts
+Springfield, Missouri
+Corona, California
+Pembroke Pines, Florida
+Paterson, New Jersey
+Eugene, Oregon
+Hollywood, Florida
+Salinas, California
+Hampton, Virginia
+Pasadena, Texas
+Pasadena, California
+Port St. Lucie, Florida
+Kansas City, Kansas
+Naperville, Illinois
+Joliet, Illinois
+Sioux Falls, South Dakota
+Torrance, California
+Peoria, Arizona
+Lancaster, California
+Syracuse, New York
+Hayward, California
+Lakewood, Colorado
+Palmdale, California
+Alexandria, Virginia
+Bridgeport, Connecticut
+Orange, California
+Warren, Michigan
+Escondido, California
+Fullerton, California
+Mesquite, Texas
+Sunnyvale, California
+Coral Springs, Florida
+Fort Collins, Colorado
+Elk Grove, California
+Sterling Heights, Michigan
+Savannah, Georgia
+McAllen, Texas
+Elizabeth, New Jersey
+Hartford, Connecticut
+Cedar Rapids, Iowa
+Thousand Oaks, California
+New Haven, Connecticut
+El Monte, California
+Concord, California
+Topeka, Kansas
+Carrollton, Texas
+Waco, Texas
+Simi Valley, California
+West Valley, Utah
+Columbia, South Carolina
+Stamford, Connecticut
+Bellevue, Washington
+Flint, Michigan
+Vallejo, California
+Springfield, Illinois
+Evansville, Indiana
+Inglewood, California
+Abilene, Texas
+Olathe, Kansas
+Lansing, Michigan
+Lafayette, Louisiana
+Provo, Utah
+Visalia, California
+Ann Arbor, Michigan
+Clarksville, Tennessee
+Peoria, Illinois
+Cary, North Carolina
+Athens, Georgia
+Beaumont, Texas
+Costa Mesa, California
+Denton, Texas
+Manchester, New Hampshire
+Independence, Missouri
+Downey, California
+Thornton, Colorado
+Gainesville, Florida
+Santa Clara, California
+Miramar, Florida
+Charleston, South Carolina
+West Covina, California
+Clearwater, Florida
+McKinney, Texas
+Allentown, Pennsylvania
+Waterbury, Connecticut
+Roseville, California
+Westminster, Colorado
+Norwalk, California
+South Bend, Indiana
+Fairfield, California
+Arvada, Colorado
+Pompano Beach, Florida
+Burbank, California
+San Buenaventura, California
+Pueblo, Colorado
+Lowell, Massachusetts
+Norman, Oklahoma
+Richmond, California
+Midland, Texas
+Erie, Pennsylvania
+Killeen, Texas
+Elgin, Illinois
+Berkeley, California
+Portsmouth, Virginia
+Cambridge, Massachusetts
+Daly City, California
+Antioch, California
+Green Bay, Wisconsin
+West Jordan, Utah
+Billings, Montana

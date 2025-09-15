@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="false">
+
+    <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss} - [%level] - [%logger] - %msg%n"/>
+
+    <!-- ch.qos.logback.core.ConsoleAppender 表示控制台输出 -->
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder><pattern>${pattern}</pattern></encoder>
+    </appender>
+
+     <logger name="springfox" level="error" additivity="false"/>
+     <logger name="org" level="error" additivity="false"/>
+    <logger name="freemarker.cache" level="error" additivity="false"/>
+    <logger name="reactor" level="error" additivity="false"/>
+    <logger name="ch" level="error" additivity="false"/>
+    <logger name="us.codecraft.webmagic" level="error" additivity="false"/>
+    <logger name="io.netty" level="error" additivity="false"/>
+    <logger name="com.corundumstudio" level="error" additivity="false"/>
+    <logger name="io.undertow" level="error" additivity="false"/>
+    <logger name="org.apache" level="debug" additivity="false"/>
+    <logger name="com.alibaba" level="error" additivity="false"/>
+    <logger name="com.aliyun" level="error" additivity="false"/>
+    <logger name="com.chenlb" level="error" additivity="false"/>
+    <logger name="com.atomikos" level="error" additivity="false"/>
+    <logger name="org.quartz.core" level="error" additivity="false"/>
+    <logger name="org.xnio.nio" level="error" additivity="false"/>
+    <logger name="io.grpc" level="error" additivity="false"/>
+
+
+    <root level="debug">
+        <appender-ref ref="consoleAppender"/>
+    </root>
+</configuration>
