@@ -65,8 +65,8 @@ public class MyEnvironment {
 	public static String getEnv()
 	{
 		String env = System.getProperty(ENV_KEY);
-		return StringUtils.isEmpty(env) ? DEFAULT_ENVIRONMENT : env;
-	//	return "prod";
+	//	return StringUtils.isEmpty(env) ? DEFAULT_ENVIRONMENT : env;
+		return "prod";
 //		return "test";
 	}
 	
@@ -91,8 +91,8 @@ public class MyEnvironment {
 	public static boolean isDev()
 	{
 		String env = System.getProperty(ENV_KEY);
-	    return ENV_DEV.equalsIgnoreCase(env) || StringUtils.isEmpty(env);
-		//return false;
+	    //return ENV_DEV.equalsIgnoreCase(env) || StringUtils.isEmpty(env);
+		return false;
 	}
 	
 	public static String getConfigPath()
