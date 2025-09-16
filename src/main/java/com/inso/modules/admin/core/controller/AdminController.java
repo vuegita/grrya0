@@ -139,8 +139,8 @@ public class AdminController {
 
             if(!WhiteIPManager.getInstance().verify(remoteip))
             {
-                apiJsonTemplate.setJsonResult(SystemErrorResult.ERR_SYS_OPT_FAILURE);
-                return apiJsonTemplate.toJSONString();
+               // apiJsonTemplate.setJsonResult(SystemErrorResult.ERR_SYS_OPT_FAILURE);
+               // return apiJsonTemplate.toJSONString();
             }
 
             Role role = mRoleService.findByName(roleName);
